@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/course")
-@Tag(name = "CourseController", description = "Controller to manage the courses")
+@Tag(name = "CourseController", description = "Controller to manage the courses for the students")
 public class CourseController {
 
     @Autowired
